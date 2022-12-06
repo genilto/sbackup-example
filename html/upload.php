@@ -31,7 +31,7 @@ function getUploadErrorDescription ($uploadErrorCode) {
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title><?php echo $SBackup->getAdapterName(); ?> - Authentication</title>
+    <title><?php echo $SBackup->getAdapterName(); ?> - Upload</title>
 </head>
 <body>
     <div style="padding: 50px; text-align: center; max-width: 500px; margin: auto;">
