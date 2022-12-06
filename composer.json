@@ -1,5 +1,10 @@
 {
     "require": {
         "genilto/sbackup-dropbox": "^1.0"
+    },
+    "config": {
+        "platform": {
+          "php": "7.3.3"
+        }
     }
 }

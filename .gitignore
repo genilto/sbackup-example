@@ -1,4 +1,4 @@
 vendor
 .env
-/config/dropbox-config.php
+/config/*.php
 /logs/*.log
