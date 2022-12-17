@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03bb658a03dd15071092868789d0b6f3",
+    "content-hash": "5c2aa612fd83f81adde63243162cfc55",
     "packages": [
         {
             "name": "analog/analog",
@@ -77,16 +77,16 @@
         },
         {
             "name": "genilto/sbackup",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/genilto/sbackup.git",
-                "reference": "e89106f0f16190aedd4ec261d5e3ce93c09c7efa"
+                "reference": "c99bfd1f08119c3034e02a4c717438e88f9c97c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/genilto/sbackup/zipball/e89106f0f16190aedd4ec261d5e3ce93c09c7efa",
-                "reference": "e89106f0f16190aedd4ec261d5e3ce93c09c7efa",
+                "url": "https://api.github.com/repos/genilto/sbackup/zipball/c99bfd1f08119c3034e02a4c717438e88f9c97c8",
+                "reference": "c99bfd1f08119c3034e02a4c717438e88f9c97c8",
                 "shasum": ""
             },
             "require": {
@@ -118,27 +118,27 @@
             ],
             "support": {
                 "issues": "https://github.com/genilto/sbackup/issues",
-                "source": "https://github.com/genilto/sbackup/tree/1.0.0"
+                "source": "https://github.com/genilto/sbackup/tree/2.0.0"
             },
-            "time": "2022-12-06T03:05:10+00:00"
+            "time": "2022-12-17T21:48:42+00:00"
         },
         {
             "name": "genilto/sbackup-dropbox",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/genilto/sbackup-dropbox.git",
-                "reference": "1adf433748fcda2c2cc2447843ea7522e5230b0d"
+                "reference": "970a7b8a734b57996a5b1e00267baa094b72d5a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/genilto/sbackup-dropbox/zipball/1adf433748fcda2c2cc2447843ea7522e5230b0d",
-                "reference": "1adf433748fcda2c2cc2447843ea7522e5230b0d",
+                "url": "https://api.github.com/repos/genilto/sbackup-dropbox/zipball/970a7b8a734b57996a5b1e00267baa094b72d5a4",
+                "reference": "970a7b8a734b57996a5b1e00267baa094b72d5a4",
                 "shasum": ""
             },
             "require": {
                 "analog/analog": "^1.0",
-                "genilto/sbackup": "^1.0",
+                "genilto/sbackup": "^2.0",
                 "kunalvarma05/dropbox-php-sdk": "^0.4.1"
             },
             "type": "library",
@@ -168,9 +168,9 @@
             ],
             "support": {
                 "issues": "https://github.com/genilto/sbackup-dropbox/issues",
-                "source": "https://github.com/genilto/sbackup-dropbox/tree/1.0.0"
+                "source": "https://github.com/genilto/sbackup-dropbox/tree/2.0.0"
             },
-            "time": "2022-12-06T02:55:48+00:00"
+            "time": "2022-12-17T21:52:51+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -505,7 +505,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v8.83.26",
+            "version": "v8.83.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -559,7 +559,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.83.26",
+            "version": "v8.83.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -607,7 +607,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v8.83.26",
+            "version": "v8.83.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",

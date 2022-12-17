@@ -1,6 +1,6 @@
 {
     "require": {
-        "genilto/sbackup-dropbox": "^1.0"
+        "genilto/sbackup-dropbox": "^2.0"
     },
     "config": {
         "platform": {

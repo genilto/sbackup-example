@@ -15,6 +15,13 @@ Analog::$timezone = 'America/Sao_Paulo';
 date_default_timezone_set(Analog::$timezone);
 
 /**
+ *  Define the required APP information
+ */
+define("DROPBOX_CLIENT_ID", getenv("DROPBOX_CLIENT_ID"));
+define("DROPBOX_CLIENT_SECRET", getenv("DROPBOX_CLIENT_SECRET"));
+define("SBACKUP_CONFIG_DIR", __DIR__ . '/../');
+
+/**
  * Creates the default logger using Analog as Logger class
  * Any other PSR-3 Logger could be used
  * 
@@ -27,23 +34,17 @@ if (!function_exists('createDefaultLogger')) {
 
         // Define where to save the logs
         $currentDate = date("Y-m-d");
-        $logger->handler (__DIR__ . "/../logs/$currentDate-sbackup.log");
+        $logger->handler (SBACKUP_CONFIG_DIR . "/logs/$currentDate-sbackup.log");
         return new SBLogger($logger, 3); // 3 - Full Logging
     }
 }
-
-/**
- *  Define the required APP information
- */
-define("DROPBOX_CLIENT_ID", getenv("DROPBOX_CLIENT_ID"));
-define("DROPBOX_CLIENT_SECRET", getenv("DROPBOX_CLIENT_SECRET"));
 
 /**
  * Instantiate all the required configuration classes
  */
 
 // 
-$SBDataStore = new FileDataStore(__DIR__ . "/../config/dropbox-config");
+$SBDataStore = new FileDataStore(SBACKUP_CONFIG_DIR . "/config/dropbox-config");
 
 // The logger that will me used
 $SBLogger = createDefaultSBackupLogger();
